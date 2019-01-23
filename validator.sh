@@ -13,9 +13,9 @@ verify_card_pan () {
     sub_string_two=${1:10:6}
     check=$sub_string
     s=0
-    if [ ${#1} -lt 16 ]; then return 0; fi;
-    if [ $sub_string_one -eq 0 ]; then return 0; fi;
-    if [ $sub_string_two -eq 0 ]; then return 0; fi;
+    if [ ${#1} -lt 16 ]; then echo "pan is not valid"; fi;
+    if [ $sub_string_one -eq 0 ]; then echo "pan is not valid"; fi;
+    if [ $sub_string_two -eq 0 ]; then echo "pan is not valid"; fi;
     for i in `seq 0 15`;
         do
             sub_str=${1:i:1};
