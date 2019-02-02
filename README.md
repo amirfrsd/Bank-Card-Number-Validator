@@ -1,5 +1,5 @@
 # Bank-Card-Number-Validator
-Validate Iranian card numbers in Bash
+Validate Shetab card numbers in Bash
 
 # Usage
 ```Bash
