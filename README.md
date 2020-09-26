@@ -10,4 +10,4 @@ Example :
 bash validator.sh -p 6219861030762784
                         ☝️ 
 ```
-This can be used for a little donation too, LOL
+This could be used for a little donation too, LOL
